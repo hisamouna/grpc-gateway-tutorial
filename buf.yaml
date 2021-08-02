@@ -1,0 +1,7 @@
+version: v1beta1
+name: buf.build/hisamouna/grgw-tutorial
+deps:
+  - buf.build/beta/googleapis
+build:
+  roots:
+    - internal/helloworld
