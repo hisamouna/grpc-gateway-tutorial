@@ -13,7 +13,7 @@ import (
 func main() {
 	conn, err := grpc.DialContext(
 		context.Background(),
-		"0.0.0.0:8080",
+		"server:8080",
 		grpc.WithBlock(),
 		grpc.WithInsecure(),
 	)
